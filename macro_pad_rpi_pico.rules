@@ -1,0 +1,82 @@
+
+(rules PCB macro_pad_rpi_pico
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 372)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    "@:no_net_0" "Col_1" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Col_2" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Col_3"
+    "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Col_4" "Net-(D8-Pad2)" "Net-(D7-Pad2)" GND USBVBUS "Net-(J1-PadB5)"
+    "USB2_POS" "USB2_NEG" "unconnected-(J1-PadB8)" "unconnected-(J1-PadA8)" "Net-(J1-PadA5)" "SDA_1" "SCL_1" 3.3V
+    "ROT_1_2" "ROT_1_1" "Row_1" "ROT_2_2" "ROT_2_1" "Row_2" "SDA_2" "SCL_2"
+    "INT (UNUSED)" "unconnected-(RPI1-Pad22)" "unconnected-(RPI1-Pad24)" "unconnected-(RPI1-Pad25)" "unconnected-(RPI1-Pad26)" "unconnected-(RPI1-Pad27)" "unconnected-(RPI1-Pad29)" "RESET_BTN"
+    "unconnected-(RPI1-Pad31)" "unconnected-(RPI1-Pad32)" "unconnected-(RPI1-Pad33)" "unconnected-(RPI1-Pad34)" "unconnected-(RPI1-Pad35)" "unconnected-(RPI1-Pad37)" "unconnected-(RPI1-Pad39)" "unconnected-(RPI1-Pad41)"
+    "unconnected-(RPI1-Pad42)" "unconnected-(RPI1-Pad43)" /D15 "unconnected-(RPI1-Pad21)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

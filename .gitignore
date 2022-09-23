@@ -1,0 +1,4 @@
+#ignored files
+.DS_Store
+*-info-cache
+*-backups

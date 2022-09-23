@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name "5pin OLED")(type "KiCad")(uri "${KIPRJMOD}/libraries/5pin OLED.pretty")(options "")(descr ""))
+  (lib (name "alps_encoder")(type "KiCad")(uri "${KIPRJMOD}/libraries/alps_encoder.pretty")(options "")(descr ""))
+  (lib (name "Button_Switch_Keyboard")(type "KiCad")(uri "${KIPRJMOD}/libraries/Button_Switch_Keyboard.pretty")(options "")(descr ""))
+  (lib (name "EM_Extras")(type "KiCad")(uri "${KIPRJMOD}/libraries/EM_Extras.pretty")(options "")(descr ""))
+  (lib (name "keyswitch-kicad-library")(type "KiCad")(uri "${KIPRJMOD}/libraries/keyswitch-kicad-library")(options "")(descr ""))
+  (lib (name "slikscreen")(type "KiCad")(uri "${KIPRJMOD}/libraries/slikscreen.pretty")(options "")(descr ""))
+  (lib (name "tact_switch")(type "KiCad")(uri "${KIPRJMOD}/libraries/tact_switch")(options "")(descr ""))
+  (lib (name "USB-C-Connector")(type "KiCad")(uri "${KIPRJMOD}/libraries/USB-C-Connector")(options "")(descr ""))
+)

@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R1,R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"5.1k";;;
+2;"OLED";"OLED_4Pin";1;"OLED";;;
+3;"D1,D5,D3,D4,D7,D2,D6,D8";"D_DO-35_SOD27_P7.62mm_Horizontal";8;"1N4148";;;
+4;"SW1,SW4,SW2,SW3,SW5,SW6";"SW_Cherry_MX_PCB_1.00u";6;"SW_Push";;;
+5;"RPI1";"RPi_Pico_SMD_TH";1;"Pico";;;
+6;"SW-RST1";"TACT_SWITCH_TVBP06";1;"EVQ";;;
+7;"J1";"USB_C_GCT_USB4085";1;"USB_C_Receptacle_USB2.0";;;
+8;"Rotary_encoder2,Rotary_encoder1";"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified";2;"EC11E15204A3";;;
+9;"J3";"OLED_5Pin";1;"TRACKBALL";;;
