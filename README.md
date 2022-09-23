@@ -12,7 +12,7 @@ Pico_Macro uses [KMK firmware](http://kmkfw.info)
 
 ## TODO
 
-- [ ] add pictures to readme
+- [x] add pictures to readme
 - [ ] Kailh choc Low Profile version
 - [ ] Kailh hotswap version
 - [ ] MX hotswap version
