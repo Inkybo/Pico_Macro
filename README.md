@@ -9,9 +9,8 @@ Pico_Macro uses [KMK firmware](kmkfw.info)
 ## TODO
 
 - [ ] add pictures to readme
--- Make version of PCB for:
-- [ ] Kailh choc Low Profile
-- [ ] Kailh hotswap
-- [ ] MX hotswap
-- [ ] hybrid socket
+- [ ] Kailh choc Low Profile version
+- [ ] Kailh hotswap version
+- [ ] MX hotswap version
+- [ ] hybrid socket version
 
