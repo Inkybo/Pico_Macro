@@ -8,13 +8,18 @@ Pico_Macro uses [KMK firmware](http://kmkfw.info)
 
 ## Images
 
-![Pico_Macro](images/board.JPG)
+The bare pcb: 
+![Pico_Macro](images/board_bare.JPG)
+
+Populated board
+![[board_no keys.JPG]]
+
+/w Keys 
+![[board_with_keys.JPG]]
 
 ## TODO
 
 - [x] add pictures to readme
-- [ ] Kailh choc Low Profile version
-- [ ] Kailh hotswap version
-- [ ] MX hotswap version
-- [ ] hybrid socket version
+- [ ] configure screen to work
+- [ ] add support for kailh choc
 
