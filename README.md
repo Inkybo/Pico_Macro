@@ -12,7 +12,7 @@ The bare pcb:
 ![Pico_Macro](images/board_bare.JPG)
 
 Populated board
-![Board with switches](images/board_no_keys.JPG) 
+![Board with switches](images/board_no_keys.jpg) 
 
 /w Keys 
 ![Board with keys](images/board_with_keys.JPG)
